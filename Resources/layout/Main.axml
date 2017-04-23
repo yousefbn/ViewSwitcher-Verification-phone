@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ViewSwitcher
+        android:id="@+id/viewSwitcher1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+       
+      
+            <EditText
+                android:id="@+id/etphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:inputType="phone"
+                android:hint="Enter your phone number"
+                android:textColor="@android:color/darker_gray" />
+          
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view2">
+                <EditText
+                    android:inputType="number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editText1" 
+                    android:maxLength="1"
+              />
+                <EditText
+                    android:inputType="number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editText2" 
+                    android:maxLength="1"/>
+                <EditText
+                    android:inputType="number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editText3"
+                    android:maxLength="1"/>
+                <EditText
+                    android:inputType="number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editText4" 
+                    android:maxLength="1"/>
+                <EditText
+                    android:inputType="number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/editText5" 
+                    android:maxLength="1"/>
+        
+              
+            <Button
+              android:id="@+id/btt"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Send" />
+            
+            </LinearLayout>
+     
+        
+    </ViewSwitcher>
+      <Button
+              android:id="@+id/myButton"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Next" />
+</LinearLayout>
