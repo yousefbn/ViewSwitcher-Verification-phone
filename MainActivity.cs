@@ -19,9 +19,7 @@ namespace App7
         string msg;
         EditText n1, n2, n3, n4, n5, phone;
 
-        
-
-        public object NavigationService { get; private set; }
+     
 
         protected override void OnCreate(Bundle bundle)
         {
